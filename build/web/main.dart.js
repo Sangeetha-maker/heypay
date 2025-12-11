@@ -78900,7 +78900,7 @@ qU(){var s=0,r=A.S(t.H),q=1,p=[],o=this,n,m,l,k,j,i
 var $async$qU=A.T(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
 s=6
-return A.W(A.aM9(A.fA("https://heypay.onrender.com/transactions")),$async$qU)
+return A.W(A.aM9(A.fA("https://heypay.onrender.com/api/transactions")),$async$qU)
 case 6:n=b
 k=n
 m=B.aH.p6(0,A.arm(A.ar1(k.e)).eN(0,k.w),null)
