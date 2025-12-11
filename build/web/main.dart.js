@@ -78981,7 +78981,7 @@ if(l==null||k==null||J.d(l,0)){m.c.an(t.Pu).f.ut(B.MC)
 s=1
 break}m.ai(new A.ahP(m))
 p=4
-d=A.fA("https://heypay.onrender.com/confirm-transaction")
+d=A.fA("https://heypay.onrender.com/api/confirm-transaction")
 g=t.N
 f=A.am(["Content-Type","application/json"],g,g)
 s=7
