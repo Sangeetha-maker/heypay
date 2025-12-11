@@ -78942,7 +78942,7 @@ s=p}for(;;)switch(s){case 0:e=B.c.l2(m.d.a.a)
 if(J.cv(e)===0){s=1
 break}m.ai(new A.ahT(m))
 p=4
-i=A.fA("https://heypay.onrender.com/parse-command")
+i=A.fA("https://heypay.onrender.com/api/parse-command")
 h=t.N
 g=A.am(["Content-Type","application/json"],h,h)
 s=7
