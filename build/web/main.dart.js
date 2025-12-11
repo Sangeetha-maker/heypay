@@ -78900,7 +78900,7 @@ qU(){var s=0,r=A.S(t.H),q=1,p=[],o=this,n,m,l,k,j,i
 var $async$qU=A.T(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
 s=6
-return A.W(A.aM9(A.fA("http://127.0.0.1:8000/transactions")),$async$qU)
+return A.W(A.aM9(A.fA("https://heypay.onrender.com/transactions")),$async$qU)
 case 6:n=b
 k=n
 m=B.aH.p6(0,A.arm(A.ar1(k.e)).eN(0,k.w),null)
@@ -78942,7 +78942,7 @@ s=p}for(;;)switch(s){case 0:e=B.c.l2(m.d.a.a)
 if(J.cv(e)===0){s=1
 break}m.ai(new A.ahT(m))
 p=4
-i=A.fA("http://127.0.0.1:8000/parse-command")
+i=A.fA("https://heypay.onrender.com/parse-command")
 h=t.N
 g=A.am(["Content-Type","application/json"],h,h)
 s=7
@@ -78981,7 +78981,7 @@ if(l==null||k==null||J.d(l,0)){m.c.an(t.Pu).f.ut(B.MC)
 s=1
 break}m.ai(new A.ahP(m))
 p=4
-d=A.fA("http://127.0.0.1:8000/confirm-transaction")
+d=A.fA("https://heypay.onrender.com/confirm-transaction")
 g=t.N
 f=A.am(["Content-Type","application/json"],g,g)
 s=7
