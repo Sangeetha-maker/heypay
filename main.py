@@ -53,7 +53,8 @@ def parse_command(cmd: VoiceCommand):
         action = "check_balance"
 
     amount = None
-    words = text.replace("rupees", "").split()
+    clean = text.replace("rupees", "").replace("rs", "").replace("rs.", "")
+    words = clean.split()
     for w in words:
         if w.replace(".", "", 1).isdigit():
             amount = float(w)
