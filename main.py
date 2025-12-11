@@ -117,7 +117,7 @@ def confirm_transaction(req: ConfirmRequest):
 @app.get("/api/transactions")
 def get_transactions(user_id: str = "demo-user"):
     return {
-        "balance": BALANCES.get(user_id, 0.0),
+        "balance": BALANCES.get(user_id, 10000.0),
         "transactions": TX_HISTORY.get(user_id, []),
     }
 
